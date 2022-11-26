@@ -1,0 +1,18 @@
+h3{
+    color:blueviolet;
+}
+#primera-noticia{
+    color:green;
+    font-size:12pt;
+}
+#segunda-noticia{
+    color:coral;
+}
+.encabezado{
+    text-transform: uppercase;
+}
+/*--solo los párrafos
+p#primera-noticia{
+    color:green;
+    font-size:12pt;
+}*/
