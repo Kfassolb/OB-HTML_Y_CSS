@@ -1,18 +1,210 @@
-h3{
-    color:blueviolet;
+h3 {
+    color: blueviolet;
 }
-#primera-noticia{
-    color:green;
-    font-size:12pt;
+
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
 }
-#segunda-noticia{
-    color:coral;
+
+#segunda-noticia {
+    color: coral;
 }
-.encabezado{
+
+.encabezado {
     text-transform: uppercase;
 }
+
 /*--solo los párrafos
 p#primera-noticia{
     color:green;
     font-size:12pt;
 }*/
+
+.div-1, .div-2 {
+    background-color: red;
+    /* display      : block; POR DEFECTO - div tienen display block */
+}
+
+.span-1 {
+    background-color: aquamarine;
+    /* display      : inline; POR DEFECTO - span tienen display inline */
+    /* height       : 500px; */
+    float: right;
+}
+
+.span-2 {
+    background-color: aquamarine;
+    /* display      : inline; POR DEFECTO - span tienen display inline */
+    /* height       : 500px; */
+    float: left;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+/* https://codepen.io/enxaneta/full/adLPwv */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.contenido-1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-2 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido-3 {
+    background-color: pink;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+/* Posicionamiento relativo - se posiciona en relación al posicionamiento original */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/* Posicionamiento fijo - se posiciona en relación a la pantalla */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: greenyellow;
+    z-index: 10;
+}
+
+/* Posicionamiento absoluto */
+.absolute {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.relative.contenedor {
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+
+/* Posicionamiento "pegajoso" - Al hacer scroll modifica su posicionamiento relative->fixed */
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky; /* IE ni Safari soporta sticky */
+    background-color: darksalmon;
+    color: white;
+    top: 0px;
+    z-index: 2;
+}
+
+.contenedor-hidden {
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}
+
+.contenedor-auto {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+}
+
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.imgfriends {
+    width: 100vw; /*all el ancho de la pagina*/
+    opacity: 0.5;
+}
+.imgfriends:hover {
+    opacity: 1;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;/*para que se ajuste al ancho de pantalla*/
+    justify-content: space-around;/*para que se alineen y esten separados*/
+    gap:10px;/*espacio entre imgnes*/
+}
+.imagen-galeria {
+    width: 300px;
+}
+.imagen-galeria:hover {
+    opacity:0.5;
+    cursor:pointer;
+}
+.fondocontexto{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.video {
+    width: 100vw;
+    opacity: 0.97;
+}
+#titulo-fondo {
+    position: absolute;
+    font-family: "Comic Sans MS", serif;
+    color: white;
+    width: 100%;
+}
