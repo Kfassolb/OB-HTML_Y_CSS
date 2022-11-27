@@ -1,6 +1,7 @@
 {
   "name": "Practicando-HTML-CSS-JS",
   "version": "1.0.0",
-  "dependencies": {
+  "devDependencies": {
+    "prettier": "^2.8.0"
   }
 }
