@@ -1,0 +1,31 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /*centra los elementos de manera horizontal*/
+    align-items: center; /*Centra los elementos verticalmente*/
+    min-height: 100vh;
+}
+
+.btn-modern {
+    background-color: darkslategray;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    border-bottom: 2px solid gray;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn-modern:hover {
+    animation: traslacion 0.4s ease forwards;
+}
+
+@keyframes traslacion {
+    100% {
+        transform: translateY(-5px);
+        box-shadow: 2px 4px black;
+        background-color: chocolate;
+        color: bisque;
+    }
+}
