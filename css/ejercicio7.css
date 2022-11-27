@@ -1,0 +1,10 @@
+.puntofinal::before {
+    content: "Pasa por encima";
+}
+.boton:hover {
+    color: white;
+    background-color: green;
+}
+.boton:active .puntofinal::before {
+    content: "Hecho";
+}

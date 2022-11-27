@@ -94,13 +94,13 @@ div {
 }
 
 /* Posicionamiento fijo - se posiciona en relación a la pantalla */
-.fixed {
-    position: fixed;
+/*.fixed {
+   position: fixed;
     bottom: 0px;
     left: 0px;
     background-color: greenyellow;
     z-index: 10;
-}
+}*/
 
 /* Posicionamiento absoluto */
 .absolute {
@@ -207,4 +207,87 @@ div {
     font-family: "Comic Sans MS", serif;
     color: white;
     width: 100%;
+}
+body section.main .contenedor p {
+    color: darkcyan;
+}
+.contenedor #boton-contenedor {
+    background: crimson;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: bisque;
+}
+.hover:hover { /*cuando el cursor pase por encima*/
+    background-color: burlywood;
+}
+.listado{
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+.listado p:first-child {
+    color: white;
+}
+
+/*Es necesario el sgte orden de la pseudoclase link para que no se sobreescriban*/
+a:link { /*Link no visitado todavía*/
+    color:deeppink;
+}
+a:visited{ /*links ya visitados*/
+    color: crimson;
+}
+a:hover{
+    color: pink;
+}
+
+a:active {/*Cuando se hace click*/
+    color:greenyellow;
+}
+.contenedor2 {
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+span.frase {
+    font-style: italic;
+}
+
+span.frase::before{
+    content: '<<';
+    font-size: xx-small;
+}
+span.frase::after{
+    content: '>>';
+    font-size: xx-small;
+}
+.libro {
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial;
+}
+.libro p::first-letter {
+    font-size: xx-large;
+}
+.libro p::first-line{
+    color:white;
+}
+.libro p::selection{
+    background-color: chocolate;
+    color:lime;
+}
+.listado2 li{
+    padding: 2px;
+    margin: 20px;
+}
+.listado2 ul li::marker {
+    color: red;
+}
+.listado2 ol li::marker {
+    color: orange;
 }
