@@ -174,23 +174,28 @@ div {
     width: 100vw; /*all el ancho de la pagina*/
     opacity: 0.5;
 }
+
 .imgfriends:hover {
     opacity: 1;
 }
+
 .galeria {
     display: flex;
-    flex-wrap: wrap;/*para que se ajuste al ancho de pantalla*/
-    justify-content: space-around;/*para que se alineen y esten separados*/
-    gap:10px;/*espacio entre imgnes*/
+    flex-wrap: wrap; /*para que se ajuste al ancho de pantalla*/
+    justify-content: space-around; /*para que se alineen y esten separados*/
+    gap: 10px; /*espacio entre imgnes*/
 }
+
 .imagen-galeria {
     width: 300px;
 }
+
 .imagen-galeria:hover {
-    opacity:0.5;
-    cursor:pointer;
+    opacity: 0.5;
+    cursor: pointer;
 }
-.fondocontexto{
+
+.fondocontexto {
     display: flex;
     position: relative;
     width: 100vw;
@@ -198,35 +203,43 @@ div {
     justify-content: center;
     text-align: center;
 }
+
 .video {
     width: 100vw;
     opacity: 0.97;
 }
+
 #titulo-fondo {
     position: absolute;
     font-family: "Comic Sans MS", serif;
     color: white;
     width: 100%;
 }
+
 body section.main .contenedor p {
     color: darkcyan;
 }
+
 .contenedor #boton-contenedor {
     background: crimson;
 }
+
 * {
     padding: 0;
     margin: 0;
 }
+
 .hover {
     width: 300px;
     height: 100px;
     background-color: bisque;
 }
+
 .hover:hover { /*cuando el cursor pase por encima*/
     background-color: burlywood;
 }
-.listado{
+
+.listado {
     padding: 15px;
     background-color: aquamarine;
 }
@@ -237,57 +250,69 @@ body section.main .contenedor p {
 
 /*Es necesario el sgte orden de la pseudoclase link para que no se sobreescriban*/
 a:link { /*Link no visitado todavía*/
-    color:deeppink;
+    color: deeppink;
 }
-a:visited{ /*links ya visitados*/
+
+a:visited { /*links ya visitados*/
     color: crimson;
 }
-a:hover{
+
+a:hover {
     color: pink;
 }
 
-a:active {/*Cuando se hace click*/
-    color:greenyellow;
+a:active { /*Cuando se hace click*/
+    color: greenyellow;
 }
+
 .contenedor2 {
     width: 300px;
     height: 100px;
     background-color: aquamarine;
 }
+
 span.frase {
     font-style: italic;
 }
 
-span.frase::before{
+span.frase::before {
     content: '<<';
     font-size: xx-small;
 }
-span.frase::after{
+
+span.frase::after {
     content: '>>';
     font-size: xx-small;
 }
+
 .libro {
     background-color: bisque;
     padding: 15px;
     font-family: Arial;
 }
+
 .libro p::first-letter {
     font-size: xx-large;
 }
-.libro p::first-line{
-    color:white;
+
+.libro p::first-line {
+    color: white;
 }
-.libro p::selection{
+
+.libro p::selection {
     background-color: chocolate;
-    color:lime;
+    color: lime;
 }
-.listado2 li{
+
+.listado2 li {
     padding: 2px;
     margin: 20px;
 }
+
 .listado2 ul li::marker {
     color: red;
 }
+
 .listado2 ol li::marker {
     color: orange;
 }
@@ -309,23 +334,23 @@ span.frase::after{
 }
 
 @keyframes traslacion {
-    0%{
+    0% {
         background-color: beige;
         transform: translateX(0%);
     }
-    25%{
+    25% {
         background-color: red;
         transform: translateX(100%);
     }
-    50%{
+    50% {
         background-color: green;
-        transform: translate(100%,100%);
+        transform: translate(100%, 100%);
     }
-    75%{
+    75% {
         background-color: cyan;
-        transform: translate(0%,100%);
+        transform: translate(0%, 100%);
     }
-    100%{
+    100% {
         background-color: purple;
         transform: translateY(0%);
     }
@@ -348,7 +373,7 @@ span.frase::after{
     background-color: green;
     color: white;
     border-bottom: 2px solid darkgreen;
-    cursor:pointer;
+    cursor: pointer;
     transition: background-color 150ms;
 }
 
@@ -369,7 +394,7 @@ span.frase::after{
     background-color: darkslategray;
 }
 
-.btn-tooltip:hover .tooltip{
+.btn-tooltip:hover .tooltip {
     opacity: 1;
 }
 
@@ -387,3 +412,84 @@ span.frase::after{
     border: solid 10px transparent;
     border-top-color: #333;
 }*/
+
+.escenario {
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.escenario-1 {
+    width: 100%;
+}
+
+.escenario-1 {
+    width: 50%;
+}
+
+.px {
+    background-color: green;
+    width: 200px;
+}
+
+.porcentaje {
+    background-color: red;
+    width: 50%; /*50% de ancho del elemento padre*/
+}
+
+.view {
+    background-color: yellow;
+    width: 50vw; /*Ancho en relación de la pantalla*/
+}
+
+.escenario_v2 {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+.escenario-3 {
+    font-size: 32px;
+}
+
+.escenario-4 {
+    font-size: 32px;
+}
+
+.em {
+    font-size: 2em; /*en relación a su elemento padre*/
+}
+
+.rem {
+    font-size: 2rem; /*en relación a una fuente raiz*/
+}
+
+h2 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media all [screen, print, speech] and (max-width:576px)*/
+/* @media and (max-width:576px)*/
+
+@media (min-width: 990px) {
+    h2 {
+        color: green;
+    }
+}
+
+@media (min-width: 995px) {
+    h2 {
+        color: blue;
+    }
+}
+
+@media (orientation: landscape) {
+    p {
+        color: brown;
+    }
+}
