@@ -1,38 +1,54 @@
-Mi Landing Page
-#Aspectos basicos del Landing Page
-## Gestion de Archivos
-### Detalles :
-- Se incluyo en 3 carpetas para organizar las imagenes  , los archivos de estilo  y del hipertexto.
-- Se incluyo el archivo "responsive.css" para que el diseño sea accesible y adaptable en diferentes dispositivos .
-- Se separó el codigo de navegacion principal y secundaria para seguir buneas practicas de programacion.
+# Mi Landing Page
 
-## Etiquetas de cabecera(head):
-### Detalles:
-- Se incluyo las etiquetas meta referente a informacion del sitio web . Asimismo ,tambien se puede encontrar el codigo que permite la escala del dispositivo.
-- Se incluyo el script que permite el uso de Ajax para tratar las etiquetas HTML desde CSS.
-- De la misma manera , tambien se incluyo los archivos de estilos (CSS) ,manteniendo el orden que permita una correcta carga del sitio web .
-- Se incluye la fuente "" desde Google Fonts.
+## Lineamientos principales del Landing Page
 
-##Heurísticas de arquitectura de la informacion
+### Principios
 
-- Objects : Dentro de la presentacion de la app , esta conforme a lo que pide el cliente .
+- **Consisitencia:** Lo que se dice es coherente y consistente con lo que se proyecta.
 
-- Choices : El usuario tiene como alternativas escoger un metodo de descarga acorde a su opinion.
+- **Minimalismo:** Se incluyó solo elementos necesarios para que el mensaje fluya, dejando de lado elementos distractores que solo abrumarian al usuario.
 
-- Disclosure : El usuario encontra informacion suficiente acorde a sus necesidades en el landing page.
+- **Información destacada o primer plano:** Se resaltó los elementos importantes que queremos que el usuario vea en primera instancia. Con un color, forma y tamaño distinto a los demás elementos del landing page.
 
-- Exemplare : El usuario podra dar click en en uno de los titulo como informacion y les dirigira al punto donde esta ese titulo correspondiente.
+- **Llamar la atención inmediatamente:** Se empleó pocos recursos en la parte inicial del landing page, ya que se incluyeron solo un título y una imagen referencial de la app. Tratando de generar interés en el público en un tiempo bastante corto y estos sigan navegando.
 
-- Front Doors : Esta dirigido a todo tipo de usuarios acorde al tema cultural.
+### Elementos de diseño
 
-- Multiple classifications : Esta organizado de manera intuitiva en base a mis segmentos objetivos.
+- **Título:** Se insertó un título atractivo, claro y conciso. Para enganchar a los usuarios con la página.
 
-- Focused navigation : Los menus de navegacion se definen por su contenido .
+- **Call to action:** Mediante un botón con mensaje sencillo y llamativo, en este caso el badge tanto de AppStore como de PlayStore, se busca que el visitante descargue la app.
 
-- Growth : La aplicacion va a estar en constante cambio y escalabilidad
+- **Imágenes:** Se consideró de mucha relevancia el uso de imágenes, por lo que se insertaron imagenes de alta calidad descargadas de [Pexels](pexels.com)
 
+- **Beneficios:** Se enumeró los principales beneficios que proporciona la app con un lenguaje limpio y de fácil comprensión.
 
-Sera efectivo lo que realize?
+- **Testimonios:** Se añadió una sección para mostrar los testimonios de los clientes con su respectivo nombre, apellido e imagen de perfil.
+
+- **Planes y precios**  También se agregó una sección de planes y precios para mostrar al público los beneficios extras que posee la app.
+
+- **Formulario Sencillo:** Se agregó un pequeño formulario donde se pide unicamente un correo electrónico, por si desea que le notifiquemos novedades y actualizaciones.
+
+- **Last call to action** Por último se añadió una segunda llamada a la acción mostrando al usuario nuevamente las opciones de descarga y las principales redes sociales para que se mantenga informado.
+
+### Heurísticas de arquitectura de informacion
+
+1. **Objects:** Dentro de la presentacion de la app , esta conforme a lo que pide el cliente .
+
+2. **Choices:** El usuario tiene como alternativas escoger un metodo de descarga acorde a su opinion.
+
+3. **Disclosure:** El usuario encontra informacion suficiente acorde a sus necesidades en el landing page.
+
+4. **Exemplare:** El usuario podra dar click en en uno de los titulo como informacion y les dirigira al punto donde esta ese titulo correspondiente.
+
+5. **Front Doors:** Esta dirigido a todo tipo de usuarios acorde al tema cultural.
+
+6. **Multiple classifications:** Esta organizado de manera intuitiva en base a mis segmentos objetivos.
+
+7. **Focused navigation:** Los menus de navegacion se definen por su contenido .
+
+8. **Growth:** La aplicacion va a estar en constante cambio y escalabilidad
+
+#### Sera efectivo lo que realize?
 
 - Findable : el usuario puede encontrar y acceder a mi landing page con un simple click .
 
@@ -54,8 +70,10 @@ Sera efectivo lo que realize?
 
 - Delightful : Pienso que cumple con las expectativas del usuario ya que todo el trabajo fue hecho para conseguir lo que el usuario quiere, y si no es asi poder arreglar en un futuro ciertos aspectos con el fin de satisfacer las necesiades del usuario.
 
-##Heuristicas de usabilidad
+## Heuristicas de usabilidad
+
 Visibilidad del estado del sistema :
+
 - Mantener siempre informado al usuario de lo que esta pasando en la aplicacion y brindarle una respuesta en el menor tiempo posible
 
 Relacion entre el sistema y el mundo real :
@@ -81,25 +99,3 @@ Flexibilidad y eficiencia de uso :
 Diseño estetico y minimalista :
 
 - Esta diseñado con informacion importante y requerida segun lo que pidio el cliente .
-
-
-
-##Elementos del diseño
-
-- Los elementos que se usaron fueron :
-
-- Formas :  Para el posicionamiento de las imagenes .
-
-- Espacio : Se considero tener una buena vista en todas las acciones .
-
-- Color : Para el background se uso el color negro , para los titulos de nivel inferior variantes de grises . Para los titulos principales un color negro ,para los parrafos de contenido un gris oscuro .
-  ##Principios que se usaron
-
-- Contraste : Se reflejo mas que todo en los fondos .
-
-- Alineacion : Correcta alineacion en los textos y titulos correspondientes.
-
-- Balance : Tiene balance en los colores negro , plomo y blanco ; ya que se pidio hacer de esa manera .
-
-
- 
