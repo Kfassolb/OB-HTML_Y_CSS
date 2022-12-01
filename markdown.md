@@ -33,7 +33,6 @@
 ### Heuristicas de usabilidad
 
 1. **Visibilidad del estado del sistema:**
-
 Se realizó un navbar que se encuentra fijo en la parte superior de la página, el cual muestra al usuario en que sección se encuentra actualmente.
 
 2. **Relacion entre el sistema y el mundo real:**
