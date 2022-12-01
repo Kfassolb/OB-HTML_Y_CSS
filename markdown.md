@@ -33,43 +33,33 @@
 ### Heuristicas de usabilidad
 
 1. **Visibilidad del estado del sistema:**
-
 Se realizó un navbar que se encuentra fijo en la parte superior de la página, el cual muestra al usuario en que sección se encuentra actualmente.
 
 2. **Relacion entre el sistema y el mundo real:**
-
 Los íconos usados para la elaboración del landing page, son los mas sencillos y que cualquier usuario se encuentra familiarizado.
 
 3. **Libertad y control por parte del usuario:**
-
 El usuario puede presionar cualquier botón del Navbar para redirigirse a la sección que desee, esto en caso el usuario se perdió navegando en la página web.
 
 4. **Consistencia y estandares:**
-
 El orden que sigue la página web es muy fácil de entender, pues el diseño corresponde a un landing page estandar
 
 5. **Prevención de errores :**
-
 Se colocó tooltip en el formulario para que el usuario no tenga problemas al insertar su correo electrónico
 
 6. **Reconocer antes que recordar:**
-
 Se colocaron botones para que el usuario pueda interactuar fácilmente con la página web
 
 7. **Flexibilidad y eficiencia en el uso:**
-
 Se agregó el uso de la barra espaciadora como forma de scrolear, asi como también la tecla tab para dirigirse a botones siguientes.
 
 8. **Diseño estético y minimalista:**
-
 Como se mencionó anteriormente la página web se insertaron solo elementos necesarios para que el mensaje fluya, dejando de lado elementos distractores que solo abrumarian al usuario.
 
 9. **Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores**
-
 Dado que el usuario ingrese un correo inválido al formulario se diseñó una alerta para que el usuario pueda ingresar un correo válido.
 
 10. **Ayuda y documentación**
-
 En la última parte de la página web, se colocó un enlace de *help* para que el usuario pueda absolver sus dudas.
 
 ### Heurísticas de arquitectura de informacion
