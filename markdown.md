@@ -1,6 +1,6 @@
 # Mi Landing Page
 
-## Lineamientos principales del Landing Page
+## Lineamientos principales del Landing Page creado
 
 ### Principios
 
@@ -30,72 +30,67 @@
 
 - **Last call to action** Por último se añadió una segunda llamada a la acción mostrando al usuario nuevamente las opciones de descarga y las principales redes sociales para que se mantenga informado.
 
+### Heuristicas de usabilidad
+
+1.**Visibilidad del estado del sistema:**
+
+Se realizó un navbar que se encuentra fijo en la parte superior de la página, el cual muestra al usuario en que sección se encuentra actualmente.
+
+2.**Relacion entre el sistema y el mundo real:**
+
+Los íconos usados para la elaboración del landing page, son los mas sencillos y que cualquier usuario se encuentra familiarizado.
+
+3.**Libertad y control por parte del usuario:**
+
+El usuario puede presionar cualquier botón del Navbar para redirigirse a la sección que desee, esto en caso el usuario se perdió navegando en la página web.
+
+4.**Consistencia y estandares:**
+
+El orden que sigue la página web es muy fácil de entender, pues el diseño corresponde a un landing page estandar
+
+5.**Prevención de errores :**
+
+Se colocó tooltip en el formulario para que el usuario no tenga problemas al insertar su correo electrónico
+
+6.**Reconocer antes que recordar:**
+
+Se colocaron botones para que el usuario pueda interactuar fácilmente con la página web
+
+7.**Flexibilidad y eficiencia en el uso:**
+
+Se agregó el uso de la barra espaciadora como forma de scrolear, asi como también la tecla tab para dirigirse a botones siguientes.
+
+8.**Diseño estético y minimalista:**
+
+Como se mencionó anteriormente la página web se insertaron solo elementos necesarios para que el mensaje fluya, dejando de lado elementos distractores que solo abrumarian al usuario.
+
+9.**Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores**
+
+Dado que el usuario ingrese un correo inválido al formulario se diseñó una alerta para que el usuario pueda ingresar un correo válido.
+
+10.**Ayuda y documentación**
+
+En la última parte de la página web, se colocó un enlace de *help* para que el usuario pueda absolver sus dudas.
+
 ### Heurísticas de arquitectura de informacion
 
-1. **Objects:** Dentro de la presentacion de la app , esta conforme a lo que pide el cliente .
+1.**Is it findable?:** Sí, pues el usuario puede encontrar fácilmente información sobre la app incluso tiene el botón de descarga para que no pierda el tiempo buscandolo.
 
-2. **Choices:** El usuario tiene como alternativas escoger un metodo de descarga acorde a su opinion.
+2.**Is it accesible?:** Se puede usar en todos los dispositivos pues está en la web y sobre todo posee diseño responsivo (adaptable)
 
-3. **Disclosure:** El usuario encontra informacion suficiente acorde a sus necesidades en el landing page.
+3.**Is it clear?:** Sí es facil de entender, ya que cuenta con un diseño minimalista sin tantos bloques informativos.
 
-4. **Exemplare:** El usuario podra dar click en en uno de los titulo como informacion y les dirigira al punto donde esta ese titulo correspondiente.
+4.**Is it comunnicative?:** Sí , la interfaz es clara y precisa ya que brinda al usuario íconos, imágenes de alta calidad y un navbar con el cual puede navegar en la página fácilmente.
 
-5. **Front Doors:** Esta dirigido a todo tipo de usuarios acorde al tema cultural.
+5.**Is it usable?:** Los usuarios lograran realizar cualquier tipo de tarea que pretende la página web pues los botones son de fácil acceso y las letras son de un tamaño proporcional.
 
-6. **Multiple classifications:** Esta organizado de manera intuitiva en base a mis segmentos objetivos.
+6.**Is it credible?:** No, esta parte está en proceso de revisión :smiley:
 
-7. **Focused navigation:** Los menus de navegacion se definen por su contenido .
+7.**Is it controllable?:** Sí, el landing page cuenta con botones de redes sociales y la opción de insertar un correo electrónico por si el visitante desea recibir información acerca de la app.
 
-8. **Growth:** La aplicacion va a estar en constante cambio y escalabilidad
+8.**Is it Valuable?:** Esta enfocado a mis segmentos objetivos como ...
 
-#### Sera efectivo lo que realize?
+9.**Is it learnable?:** La interfaz fue hecha con el fin de que sea facil de entender. Los textos y la paleta de colores están adecuados para tal fin.
 
-- Findable : el usuario puede encontrar y acceder a mi landing page con un simple click .
+10.**Is it delightful?:** Pienso que cumple con las expectativas del usuario ya que el landing page cumple con los objetivos que tiene el usuario.
 
-- Accesible : Gracias a que esta en un buscador , se puede usar en todos los dispositivos . Se espera que rinda un poco mas a lo largo del tiempo .
-
-- Clear : SI , es facil de entender ya que cuenta con sus respectivas instrucciones en cada panel .
-
-- Comunnicative : Si , la interfaz es clara y precisa ya que brinda al usaurio todo tipo de herramientas como por ejemplo : ir con un solo click a un punto especifico del lading entre otras , todo ello permitiendo que los mensjaes sean facil de entender y tener una comunicacion fluida.
-
-- Usable : Los usuarios lograran realizar los tipos de tareas asignadas como entrar al sitio web que se esta ofreciendo , las app movil disponibles .
-
-- Credible : Por el momento el contenido es real y esta constantemente actualizado para el favorecimiento de los usuarios
-
-- Controllable : Los usuarios si gustan pueden ver algunas caracterisitcas adicionales como el apartodo de las redes sociales .
-
-- Valuable : Esta enfocado a mis segmentos objetivos como personas interesadas en la cultura , dandoles asi todo tipo de informacion.
-
-- Learnable : La interfaz fue hecha con el fin de que sea facil de entender. Los textos estan adecuados para la facil comprension del usuario.
-
-- Delightful : Pienso que cumple con las expectativas del usuario ya que todo el trabajo fue hecho para conseguir lo que el usuario quiere, y si no es asi poder arreglar en un futuro ciertos aspectos con el fin de satisfacer las necesiades del usuario.
-
-## Heuristicas de usabilidad
-
-Visibilidad del estado del sistema :
-
-- Mantener siempre informado al usuario de lo que esta pasando en la aplicacion y brindarle una respuesta en el menor tiempo posible
-
-Relacion entre el sistema y el mundo real :
-
-- Mi aplicacion debe utilizar el lenguaje del usuario ,con expresiones y palabras que le resulten familiares . La informacion debe aparecer en orden logico y natural . Cada icono de mi landing ya tiene su secuencia estabelicda .
-
-Libertad y control por parte del usuario :
-
-- Si hay algun error o emergencia , el usuario puede contactar al dueño mediante las redes sociales y se le respondera en un tiempo establecido .
-
-Consistencia y estandares :
-
-- Ya hay un estandar definido de diseño web en el landing page .
-
-Reconocer antes que recordar :
-
-- En la interfaz estan visibles las acciones y opciones para que el usuario no tenga que recordar de alguna manera informacion entre diferentes parte del landing page ya que todo esta a la vista del usuario .
-
-Flexibilidad y eficiencia de uso :
-
-- El landing page muestra una rapida interaccion para los usuarios , tanto como para usuarios principiantes o avanzados .
-
-Diseño estetico y minimalista :
-
-- Esta diseñado con informacion importante y requerida segun lo que pidio el cliente .
