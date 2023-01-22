@@ -19,9 +19,9 @@ html {
 }
 
 .buttons {
-    align-self: flex-start;
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
 .google-btn {
@@ -62,14 +62,37 @@ html {
 .twitter-btn {
     color: #ccc;
     background-color: #eee;
-    border: none;
-    width: 40px;
+    border: none;    
+    padding: 2px;
+    height: 40px;
+    display: flex;
+    align-items: center;
     border-radius: 5px;
     cursor: pointer;
+    gap: 0.2rem;
+}
+
+.twitter-btn picture {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-btn span {
+    color: #161717;
+    padding: 0.5rem;
+}
+
+.twitter-btn picture img {
+    width: 80%;
 }
 
 .twitter-btn:hover {
-    background-color: #ddd;
+    opacity: 0.75;
 }
 
 .separator {

@@ -1,0 +1,6 @@
+@use "sass:string";
+
+@debug "hola";
+
+//Funciones
+@debug string.index("Helvetica Neue", "Neue"); //11
